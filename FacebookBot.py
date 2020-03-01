@@ -26,7 +26,7 @@ class MessageBot():
         
     def auto_like(self):
         while True:
-            sleep(5)
+            sleep(2)
             # sleep(0.1)
             self.like()
 
