@@ -1,4 +1,4 @@
-# Facebook-Messenger-Like-Spammer
+# Facebook-Messenger-Bot
 A Messenger Bot that will automatically send messages on Facebook.
 
 # Disclaimer
