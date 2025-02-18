@@ -24,6 +24,7 @@ class MessageBot():
         like = self.driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/span/div[2]/div[2]/div[2]/div[2]/a')
         like.click()
         
+        
     def auto_like(self):
         while True:
             sleep(2)
