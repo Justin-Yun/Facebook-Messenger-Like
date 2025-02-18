@@ -5,12 +5,11 @@ from fb_secrets import username, password, link
 
 class MessageBot():
     def __init__(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome() 
 
     def login(self):
         self.driver.get(link)
         sleep(5)
-
         email_in = self.driver.find_element_by_xpath('//*[@id="email"]')
         email_in.send_keys(username)
         password_in = self.driver.find_element_by_xpath('//*[@id="pass"]')
